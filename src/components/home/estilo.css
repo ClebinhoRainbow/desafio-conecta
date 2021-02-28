@@ -1,0 +1,88 @@
+.background-main{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./img/backgroundhead.png);
+    background-repeat: no-repeat;
+   
+}
+.container{
+    /* position: relative;
+    background-size: 100%;
+    width: 100%;
+    padding: 2% 2%; */
+    display: flex;
+    align-items: center;
+    
+}
+/* //inicio nav */
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 5vw;
+}
+.menu-header{
+    width: 5vw;
+    margin-right: 5vw;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+/* fim nav */
+/* inicio meio header */
+.container-header-meio{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row-reverse;
+}
+.container-cta{
+    color:aliceblue;
+}
+.container-cta h2{
+    color:aliceblue;
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 6vh;
+    font-weight: bold;    
+}
+.lata-guarana-main{
+    max-width: 23vw;
+    max-height: 25rem;
+    
+}
+
+
+.butao-cta {
+
+    margin-top: 1vh;
+    border-radius: 59px;
+    height: 7vh;
+    width: 17vw;
+    color: #000000;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    text-justify: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vh;
+
+    border: solid #00EC5B 0px;
+    background-color: #00EC5B;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+ 
+ }
+ 
+ .butao-cta:hover {
+    border: solid #3ca84e 0px;
+    background-color: #3ca84e;
+    border-radius: 59px;
+    text-decoration: none;
+ }
+ @media (min-width: 735px) {
+   
+}

@@ -1,0 +1,110 @@
+.produtos{
+    margin: 5vh,auto,5vh,auto;
+    justify-content: center;  
+}
+
+.produtos  h2{
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 1.5em;
+    margin-top: 2.5em;
+
+}
+.produtos p{
+    text-align: center;
+    font-size: 1em;
+    margin-bottom: .5em;
+}
+.pedidos{
+    padding: 2% 2%;
+}
+.tipos-guarana{
+   
+    display: flex;
+    align-content: center;
+    margin-top: 5vh;
+    /* margin-bottom: 15vh;  */
+    margin-left: 20vw;
+    margin-right: 20vw;
+   
+    justify-content: space-evenly;
+   
+    
+}
+.flex-guarana{
+    
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+
+.tipos-guarana li{
+    width: 20vw;
+    display: inline-block;
+    opacity: 1;
+    box-shadow: 1px 1px 5px 0 #adaaaa;
+    padding: 10px 10px;
+    border-radius: 10px;
+    
+  
+}
+.tipos-guarana h3{
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    margin-bottom: .5em;
+}
+.tipos-guarana img{
+    height: 50vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.tipos-guarana .conteudo{
+    margin: auto;
+    padding: 10px;
+    margin-bottom: 5vh;
+    
+
+}
+
+.butoes-sobrepostos{
+    display: flex;
+    align-content: center;
+    margin-top: -5vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+   margin-bottom: 15vh;
+    justify-content: space-evenly;
+}
+.butao-cta {
+    position: relative;
+    margin-top: 1vh;
+    border-radius: 59px;
+    height: 7vh;
+    width: 17vw;
+    color: #000000;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: center;
+    text-justify: auto;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5vh;
+
+    border: solid #46ce63 0px;
+    background-color: #4bf26f;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+ 
+ }
+ 
+ .butao-cta:hover {
+    border: solid #3ca84e 0px;
+    background-color: #3ca84e;
+    border-radius: 59px;
+    text-decoration: none;
+ }

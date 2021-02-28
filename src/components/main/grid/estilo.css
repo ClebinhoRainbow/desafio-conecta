@@ -1,0 +1,46 @@
+
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10vh;
+    }
+.grid-section{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+   
+}
+
+.grid-section img{
+    width: 35vw;
+    background-size: 100%; 
+    background-position: center;
+    background-color: black;
+
+      
+}
+.div2 p{
+    text-align: center;
+    padding: 20vh 0;
+    color: #ffffff;
+}
+.div1 { grid-area: 1 / 1 / 3 / 2; }
+    /* //CARROUSEL */
+.div2 { grid-area: 1 / 2 / 2 / 3; 
+        width: 100%;
+        height: 100%;
+        background-color: black; 
+    }
+.div3 { grid-area: 2 / 2 / 3 / 3;
+        /* //todo */
+        border-top: black solid .5vh;
+         width: 100%;
+          height: 100%; 
+       
+    }

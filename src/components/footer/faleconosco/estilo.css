@@ -1,0 +1,139 @@
+.fale-conosco{
+    margin-top: -50vh;
+    position: relative;
+    z-index: 2;
+    background-color: black;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    /**/
+    
+    
+}
+.esquerda{
+  padding-top: 30vh;
+  padding-left: 10vw;
+  
+  text-align: center;
+}
+.social-media-esquerda{
+  display: flex;
+  justify-content: space-between;
+}
+.fale-conosco h2{
+  color: white;
+  font-size: 5vh;
+}
+.fale-conosco h3{
+  color: white;
+  font-size: 2.5vh;
+}
+.fale-conosco p{
+  color: #65686b;
+  font-size: 2.5vh;
+  margin-bottom: 1vh;
+  text-transform: capitalize;
+}
+
+form{
+  padding-top: 10vh;
+  padding-right: 10vh;
+  
+}
+.phone-n-mail{
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+
+  display: flex;
+}
+.phone-n-mail label{
+  padding-right: 1.5vw;
+}
+select{
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  width: 95%;
+}
+textarea{
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  width: 95%;
+}
+textarea label{
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  width: 95%;
+}
+form input,select,textarea{
+  background-color: #3f3c3c;
+}
+form input:focus,select:focus,textarea:focus{
+  border-radius: 1vh solid;
+  border-bottom: #00EC5B;
+  border-right: #00EC5B;
+}
+.botao-aux{
+  display: flex;
+  padding-right: 2vw;
+  justify-content: flex-end;
+}
+.butao-cta-footer {
+
+  margin-top: 1vh;
+  border-radius: 59px;
+  height: 7vh;
+  width: 17vw;
+  color: #000000;
+  font-family: 'Fira Sans', sans-serif;
+  text-align: center;
+  text-justify: auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5vh;
+  
+  border: solid #00EC5B 0px;
+  background-color: #00EC5B;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+
+}
+
+.butao-cta-footer:hover {
+  border: solid #3ca84e 0px;
+  background-color: #3ca84e;
+  border-radius: 59px;
+  text-decoration: none;
+}
+.fim-footer{
+ width: 100%;
+ padding-left: 5vw;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  
+}
+.fim-footer p{
+  padding-top: -2vh;
+  color:whitesmoke;
+  font-size: 3vh;
+}
+.fim-footer h5{
+  font-size: 2vh;
+  padding-top: -2vh;
+  color: whitesmoke;
+ 
+}
+h5{
+   display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  align-items: center; 
+  font-size: 3vh;
+}
+.loguinhoconecta{
+  width: 10vh;
+  height: 5vh;
+  margin-right: 5vw;
+ 
+}
