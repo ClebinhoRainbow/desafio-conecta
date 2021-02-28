@@ -5,6 +5,7 @@ import {ReactComponent as LogoConecta} from './img/marca_conecta_header.svg';
 import {ReactComponent as LogoInsta} from "./img/instagram.svg"
 import {ReactComponent as LogoFace} from "./img/facebook.svg"
 
+
 import "./estilo.css";
 class Home extends Component{
  

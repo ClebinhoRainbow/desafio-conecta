@@ -19,9 +19,8 @@ class Grid extends Component{
                     <div className="div1">
                         <img src={Grid1}alt="grupo de meninas em uma festa"></img> 
                     </div>
-                    <div className="div2"> 
-                    <p>Bacon ipsum dolor</p>
-                    <img></img>
+                    <div className="div2">                     
+                    <img src={Grid2}alt="slide"></img> 
                     </div>
                     <div className="div3">
                     <img src={Grid3}alt="Barman servindo bebida"></img> 

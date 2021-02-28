@@ -57,3 +57,67 @@
     margin-top: -80vh;
     height: 120vh;
  }
+ @media (max-width: 735px) {
+    .imagens-emcima{
+        padding-left: 5vw;
+    } 
+ .lata-menor{
+     margin-top: -40vh;
+   margin-left: 20vw; 
+}
+.lata-maior{
+   height: 95vh;
+   margin-top: -80vh;
+   margin-left: 20vw;
+   margin-bottom: 25vh;
+}
+.container-experimentar{
+    margin-top: -15vh;
+}
+ }
+ @media (max-width: 375px) {
+    .imagens-emcima{
+        
+        background-image: url(./img/garrafa_responsive.png);
+        background-position: center;
+        position: relative;
+        z-index: 1;
+        background-repeat: no-repeat;
+        /* padding-left: 5vw; */
+    } 
+    .imagens-emcima img{
+        margin-left: -999999px;
+    }
+    .container-experimentar{
+       
+    }
+ .lata-menor{
+    z-index: -1;
+     /* margin-top: -40vh;
+   margin-left: 20vw;  */
+}
+.lata-maior{
+    z-index: -1;
+    margin-left: -99999px;
+   /* height: 95vh;
+   margin-top: -80vh;
+   margin-left: 20vw;
+   margin-bottom: 25vh; */
+}
+.container-experimentar{
+    /* margin-top: -15vh; */
+}
+.butao-cta-preto {
+
+    margin-top: 1vh;
+    border-radius: 59px;
+    height: 10vh;
+    width: 50vw;
+   
+    font-size: 3vh;
+
+ 
+ }
+ 
+ 
+ }

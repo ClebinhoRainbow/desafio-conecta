@@ -3,6 +3,8 @@
     height: 100vh;
     background-image: url(./img/backgroundhead.png);
     background-repeat: no-repeat;
+    
+    background-size: auto;
    
 }
 .container{
@@ -49,8 +51,8 @@ nav ul{
     font-weight: bold;    
 }
 .lata-guarana-main{
-    max-width: 23vw;
-    max-height: 25rem;
+    width: 23vw;
+    height: 25rem;
     
 }
 
@@ -83,6 +85,70 @@ nav ul{
     border-radius: 59px;
     text-decoration: none;
  }
- @media (min-width: 735px) {
-   
+ @media (max-width: 735px) {
+ .background-main{
+    background-size: 735px;
+ }
+ .lata-guarana-main {
+    width: 25vw;
+    height: 17rem;
+    
 }
+
+ .container{
+     padding-top: 10vh;
+ }
+ nav ul{
+    width: 12vw;
+    padding-right: 5vw;
+    
+     justify-content: space-between;
+ }
+}
+
+
+@media (max-width: 375px) {
+   .background-main{
+    background-image: url(./img/backgroud-celular.png);
+    background-size: 375px,448px;
+   
+   }
+   .lata-guarana-main {
+        height: auto;
+        width: 35vw;
+    }
+    .container{
+        padding-top: 0vh;
+       display: flex;
+       width: 100vw;
+       justify-content: space-between;
+       padding-right: 2vw;
+       
+    }
+    .container li{
+       
+        padding-right: 1vw;
+    }
+    .container-header-meio{
+        flex-direction: column;
+    }
+    .lata-guarana-main{
+        background-size: 300px 100px;
+    }
+    .background-main{
+       background-size: 375px;
+       height: 90vh;
+    }
+   
+    nav ul{
+       width: 12vw;
+       padding-right: 5vw;
+       
+        justify-content: space-between;
+    }
+    .butao-cta{
+        width: 80vw;
+    }
+ 
+    
+   }

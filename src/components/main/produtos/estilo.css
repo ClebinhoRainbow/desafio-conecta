@@ -108,3 +108,38 @@
     border-radius: 59px;
     text-decoration: none;
  }
+ @media (max-width: 735px) {
+     .tipos-guarana{
+         width: 100%;
+         margin-left: 0vw;
+        margin-right: 0vw;
+        justify-content:space-around;
+     }
+     .tipos-guarana li{
+         width: 40vw;
+     }
+     .butoes-sobrepostos{
+        width: 100%;
+         margin-left: 0vw;
+        margin-right: 0vw;
+        justify-content:space-around;
+
+        
+    }
+ }
+ @media (max-width: 375px) {
+    .tipos-guarana{
+        flex-direction: column;
+    }
+    .butoes-sobrepostos{
+        flex-direction: column;
+        padding-left: 40vw;
+        height: 160vh;
+       margin-top: -120vh;
+       margin-bottom: -10vh;
+
+    }
+    .produtos ul{
+        padding-left: 30vw;
+    }
+    }
