@@ -12,7 +12,9 @@ class App extends Component {
   render() {
     return (
       <body className="home">
-        <Home/>
+        <header>
+          <Home/>
+        </header>
         <main>
           <Produtos/>
           <Grid/>
